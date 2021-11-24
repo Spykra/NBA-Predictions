@@ -3,11 +3,6 @@
 This repository contains an analysis of the NBA based on a variety of datasets. With the help of supervised learning 
 algorithms, we are testing/experimenting on these datasets and try to predict some of the most insane things.
 
-## Main Packages
--numpy
--pandas
--sklearn
-
 ## Main algorithms
 Classification
 	-Logistic Regression
