@@ -3,9 +3,9 @@
 #
 # We will use 2 algorithms: Logistic Regression, K-Nearest Neighbours
 #
-# The main goal of the script is not to test the performance of ML algorithms
-# but to see how easily we can modify/manipulate the given data for our purposes
-# and try some tuning on the hyperparameters of our models
+# The main goal of the script is not to test the performance of ML algorithms but to
+# see how easily we can modify/manipulate the given data for our purposes and try some
+# tuning on the hyperparameters of our models. Our evaluation metric will be the accuracy.
 # -----------------------------------------------------------
 
 import numpy as np
@@ -57,7 +57,6 @@ def log_prediction_based_on_player_ID():
     model = LogisticRegression().fit(Player_ID_train, Results_train)
     accuracy = model.score(Player_ID_test,Results_test)
     print("Accuracy is:", accuracy)
-
 
 
 #Instead of transforming our target variable to categorical, for our next two examples we will leave it as it is

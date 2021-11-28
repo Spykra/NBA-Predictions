@@ -33,12 +33,3 @@ PLayers_of_the_week = PLayers_of_the_week.drop(columns = ["Conference", "Draft Y
 #Teams
 Teams_Ranking = Teams_Ranking.drop(columns = ["LEAGUE_ID","CONFERENCE","RETURNTOPLAY"])
 Teams_Ranking = Teams_Ranking.drop_duplicates(["TEAM_ID","HOME_RECORD","W","W_PCT"])    #remove the duplicates
-
-
-
-
-
-
-
-
-
