@@ -3,7 +3,8 @@ from Classification_2 import *
 from Regression import *
 
 def main():
-    linear_prediction_based_on_multiple_stats()
+    print("Run your experiment")
+    # e.g. decistree_NBA_ranking_prediction()
 
 if __name__ == "__main__":
     main()
